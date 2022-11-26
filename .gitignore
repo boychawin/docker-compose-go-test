@@ -1,0 +1,8 @@
+bin
+.dockerignore
+Dockerfile
+docker-compose.yml
+.env
+mod
+test_api_go
+git.text
