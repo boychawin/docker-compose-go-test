@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+    api:
+        build:
+            dockerfile: Dockerfile
+        container_name: test_api_go
+        ports:
+            - 8003:8003
+        volumes:
+            - ./:/go/src/boychawin/test_api_go
